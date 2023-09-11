@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Country Information App</title>
+
+</head>
+
+<body>
+     <div class="search-input">
+       <input type="text" id="loc" placeholder="Enter Country" value=""/>
+       <button type="submit" onclick="getCountry()">search</button>
+  </div>
+    <div class="country-container">
+
+        <h1>Country Information App</h1>
+
+        <div class="country-info" id="div1">
+
+            <p id="country-details">Loading...</p>
+
+        </div>
+
+    </div>
+
+    <script src="api.js"></script>
+
+</body>
+
+</html>
